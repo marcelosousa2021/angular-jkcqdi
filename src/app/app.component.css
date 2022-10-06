@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+}
+
+.left {
+  width:30%;
+  height: 100vh;
+  border-right: 1px solid black;
+  float: left;
+}
+
+.right {
+  width: 69%;
+  height: 100vh;
+  float: right;
+}
+
+.click {
+  cursor: pointer;
+  color: green;
+}

@@ -1,0 +1,10 @@
+<p>home works!</p>
+<div class="container">
+  <div class="left">
+    <ul>
+      <li class="click" [routerLink]="[{ outlets: { aux2: ['one'] } }]">One</li>
+      <li class="click" [routerLink]="[{ outlets: { aux2: ['two'] } }]">Two</li>
+    </ul>
+  </div>
+  <div class="right"><router-outlet name="aux2"></router-outlet></div>
+</div>
